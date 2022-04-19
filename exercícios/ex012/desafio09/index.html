@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 09</title>
+
+    <style>
+        body{
+            background-color: black;
+            
+        }
+
+        h1,
+        p{
+            color: white;
+            text-align: center;
+        }
+
+        picture{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 20vh 50vh;
+
+            grid-template-areas: "ha ht"
+                                  "js ja";
+
+        }
+
+        .hardware {
+            grid-area: ha;
+            margin-left: 450px;
+        }    
+
+        .html{
+            grid-area: ht;
+        }
+
+        .js{
+            grid-area: js;
+            margin-left: 450px;
+        }
+
+        .python{
+            grid-area: ja;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Veja esses videos</h1>
+    <p> videos do curso em video para melhorar seu conhecimento na área de tecnologia</p>
+
+    <picture>
+         <a class="hardware" href="/pagina2.html"> 
+             <img src="arquivo/thumb-hardware.png">
+        </a>
+
+        <a  class="html" href="/pagina3.html"> 
+            <img src="arquivo/thumb-html.png ">
+       </a>
+
+
+        <a class="js" href="/pagina4.html"> 
+            <img src="arquivo/thumb-js.png">
+        </a>
+
+         <a class="python" href="/pagina5.html"> 
+            <img src="arquivo/thumb-python.png">
+        </a>
+
+    </picture>
+    
+</body>
+</html>

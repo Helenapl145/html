@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    background-color: #a6f2bf;
+}
+
+h1{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 30px;
+
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+
+    font-weight: 300;
+    margin-left: 35px;
+}
+
+#basico{
+    color: #0d5926;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#intermediario{
+    color: #8f20df;
+    font-size: 25px;
+}
+
+#avancado{
+    color: #df3020;
+    font-size: 25px;
+}
+
+.titulo{
+    background-color: #1ab34d;
+    color: white;
+}

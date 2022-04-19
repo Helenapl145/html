@@ -1,0 +1,73 @@
+body{
+    background-color:rgba(54, 54, 54, 0.774);
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    color:white;
+}
+
+
+/*BOX-MODEL -> box-level*/
+div {
+    background-color:aqua;
+
+    display: block;
+    height: 160px;
+    width: 400px;
+
+    border-width: 05px;
+    border-color:black;
+    border-style: solid;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom:10px;
+    padding-left:10px;
+
+    margin-top: 30px;
+
+    /*usa o auto para centralizar*/
+    margin-right: auto;
+
+    margin-bottom: 50px;
+    margin-left: auto;
+
+    outline-width: 10px;
+    outline-color: red;
+    outline-style: dashed;
+}
+
+/*BOX-MODEL -> inline-level*/
+
+.info p{
+
+    /*quando colocar o margin em uma só linha segue a sequencia:
+    top-right-bottom-left 
+
+    ex: margin: 10px 20px 30px 03px;
+    
+    */
+
+    margin: 10px;
+}
+
+.info a{
+
+    /*border e outline tem a mesma estrutura que é:
+    width-color-style
+    */
+    border: 5px blue double;
+
+    /*padding segue o modelo do margin*/
+    padding: 2px;
+    
+    text-decoration: none;
+}
+
+
+a:hover{
+    color:red;
+}

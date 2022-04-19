@@ -1,0 +1,38 @@
+div{
+    height:300px;
+    width: 300px;
+    color:white;
+    display:inline-block;
+
+    text-align: center;
+}
+
+#primeiro{
+    background-color: red;
+
+}
+
+#segundo{
+    background-color: blue;
+
+}
+
+#terceiro{
+    background-color: green;
+}
+
+#primeiro > p{
+    display: none;
+}
+
+#primeiro:hover > p {
+    display: block;
+}
+
+#segundo:hover{
+    background-color: black;
+}
+
+#terceiro:enabled{
+    background-color: yellow;
+}
