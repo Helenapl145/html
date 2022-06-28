@@ -55,7 +55,7 @@
 }
 
 .textBackOne {
-    background-image: url("/exercícios/desafio012/imagens/background001.jpg");
+    background-image: url("./imagens/background001.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@
 }
 
 .textBackTwo{
-    background-image: url("/exercícios/desafio012/imagens/background002.jpg");
+    background-image: url("./imagens/background002.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
