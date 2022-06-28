@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+:root {
+    --fontPrimary: 'Passion One', cursive;
+    --fontSecudary: 'Sriracha', cursive;
+    --background01:rgba(113, 163, 128, 0.26);
+    --backgroundO2: rgba(117, 98, 57, 0.349);
+}
+
+.cabecalho {
+    background-color: black;
+    color: white;
+    font-family: var(--fontPrimary);
+    text-align: center;
+    padding: 3rem;
+   
+}
+
+.cabecalho h1 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.cabecalho p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.cabecalho a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.conteudo p{
+    font-size: 2rem;
+    font-family: var(--fontSecudary) ;
+
+    width: 28rem;
+    line-height: 150%;
+    padding-block: 5rem;
+    padding-left: 2rem;
+}
+
+.textBackWhiteOne{
+    background-color: white;
+    height: 35rem;
+}
+
+.textBackOne {
+    background-image: url("/exercícios/desafio012/imagens/background001.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 40rem;
+
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.textBackOne p{
+    background-color: var(--background01);
+    padding-right: 2rem;
+    margin-left: 2rem;
+    color: white;
+}
+
+
+
+
+.textBackWhiteTwo{
+    background-color: white;
+    height: 65rem;
+}
+
+.textBackTwo{
+    background-image: url("/exercícios/desafio012/imagens/background002.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 40rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.textBackTwo p{
+    color: white;
+    background-color: var(--backgroundO2);
+
+    padding-right: 2rem;
+    margin-left: 2rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer a{
+    
+    text-decoration: none;
+    color: rgb(14, 224, 196);
+    font-weight: 500;
+}
