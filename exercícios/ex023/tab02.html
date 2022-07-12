@@ -16,8 +16,10 @@
             background-color: rgba(181, 245, 181, 0.719);
         }
 
-        h1{
+        caption{
             font-size: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
             color: rgb(3, 114, 96);
         }
         table {
@@ -38,6 +40,10 @@
         background-color: white;
         }
 
+        tbody > tr:nth-child(2n){
+           background-color: green;
+        }
+
         .num{
             text-align: right;
         }
@@ -48,9 +54,9 @@
     </style>
 </head>
 <body>
-    <h1>10 Estados com as maiores populações do Brasil</h1>
 
     <table>
+        <caption>10 Estados com as maiores populações do Brasil</caption>
         <thead>
             <tr>
                 <th>Estado</th>
