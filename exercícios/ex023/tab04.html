@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+
+    <style>
+        table {
+            border-collapse: collapse;
+            margin-left: 50px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            
+        }
+
+        td{
+            width: 120px;
+            height: 60px;
+            text-align: center;
+        }
+
+        caption{
+            font-weight: bold;
+            font-size: 23px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width: 100px;" >Grupos</th>
+                <th scope="col">Nomes</th>
+                <th  scope="colgroup" colspan="3">Filmes</th>
+        </thead>
+       
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">
+                    Mulheres
+                </th>
+                <td>
+                    Janaina
+                </td>
+                <td>
+                    Ultimato
+                </td>
+                <td>
+                    Matrix 
+                </td>
+                <td>
+                    Fabrica de chocolate
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Joana
+                </td>
+                <td>
+                    Pantera Negra
+                </td>
+                <td>
+                    As panteras cor de rosa 
+                </td>
+                <td>
+                   Meninas malvadas
+                </td>
+                
+            </tr>
+
+            
+            <tr>
+                <td>
+                    Jaqueline
+                </td>
+                <td>
+                    Minions
+                </td>
+                <td>
+                    Cinderela  
+                </td>
+                <td>
+                    Moana
+                </td>
+                
+            </tr>
+
+            <tr>
+                <th  scope="rowgroup" rowspan="3" >Homens</th>
+                <td>Jairo</td>
+                <td>Homens de preto</td>
+                <td>Homem de ferro</td>
+                <td>Walle</td>
+            </tr>
+
+            <tr>
+                <td>Jorge</td>
+                <td>A cinco passo de você</td>
+                <td>Hulk</td>
+                <td>Missão impossivel</td>
+            </tr>
+
+            <tr>
+                <td>João</td>
+                <td>Homem aranha</td>
+                <td>Onde está a segunda?</td>
+                <td>A culpa é das estrelas</td>
+            </tr>
+           
+        </tbody>
+    </table>
+</body>
+</html>
